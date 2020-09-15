@@ -1,9 +1,11 @@
+| **Build Status**  |
+|:-----------------:|
+| ![Build and Push to Dockerhub](https://github.com/vishnudxb/docker-blackeye/workflows/Build%20and%20Push%20to%20Dockerhub/badge.svg) |
+
 # docker-blackeye
 Docker container for running the phishing attack using Blackeye
 
 Blackeye is a Phishing Tool, with 32 templates +1 customizable.
-
-It is developed by [thelinuxchoice](https://github.com/thelinuxchoice/blackeye)
 
 I am creating a docker container where you can run blackeye in any platform.
 

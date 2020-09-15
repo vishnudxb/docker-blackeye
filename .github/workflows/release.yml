@@ -8,12 +8,6 @@ on:
       - '.gitmodules'
     branches:
       - master
-
-# Environment variables available to all jobs and steps in this workflow
-env:
-  GITHUB_SHA: ${{ github.sha }}
-  TAG: prod-${{ github.sha }}
-
 jobs:
   cleanup-runs:
     runs-on: ubuntu-latest

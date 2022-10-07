@@ -1,7 +1,5 @@
 FROM kalilinux/kali-rolling:latest
 
-MAINTAINER Vishnu Nair
-
 RUN mkdir /src
 
 WORKDIR /src
